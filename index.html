@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portifolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <script src="js/script.js"></script>
+  <script src="/enviarEmail.js"></script>
+  <script src="/index.js"></script>
+
+  <main>
+  <nav>
+    <img src="/image/ginger-removebg-preview.png" alt="">
+    <ul>
+      <a href="#home">Home</a>
+      <a href="#port">Portifólio</a>
+      <a href="#contact">Contato</a>
+    </ul>
+  </nav>
+
+  <section id="home">
+  <div class="app">
+    
+  
+  <div id="text1">
+    <h1>Nossos Ingredientes</h1>
+    <p>Parcerias de longo prazo com fornecedores globais e qualificados somados a um rigoroso controle interno, garante uma qualidade consistente e certificada das matérias primas que utilizamos em nossas criações.</p>
+  </div>
+  
+  <div id="app">
+    <h1>Descubra a Diferença: Nossas Matérias-Primas</h1>
+    <p>"Seja bem-vindo ao nosso espaço dedicado à venda de matérias-primas. Estamos aqui para oferecer o que você precisa para impulsionar seus projetos e negócios com a mais alta qualidade de matérias-primas. Nossa meta é garantir que suas escolhas se traduzam em produtos excepcionais. Descubra agora as opções que temos para fortalecer sua produção."</p>
+  </div>
+  </div>
+  </section>
+
+  <section id="port">
+     <div class="tela2">
+    <h1>Tudo Que Temos Para Fragrâncias</h1>
+    <div id="line"></div>
+    <p>"Descubra matérias-primas de alta qualidade para otimizar sua produção. Nosso compromisso é oferecer a base sólida necessária para o sucesso dos seus projetos. Explore e faça a diferença."</p>
+  </div>
+
+    </div>
+
+    <!-- Formulário de pesquisa -->
+    <div class="formi">
+      <button type="button" id="botaoItem" onclick="pesquisarItem()">Pesquisar</button>
+      <input type="text" id="pesquisaItem" placeholder="Nome do produto, CAS" onkeyup="verificarCampoPesquisa(event)">
+    </div>
+<div class="lista-rolavel" id="lista-rolavel">
+    <table>
+        <tbody>
+            <tr>
+                <td>Produto: 6-METIL CUMARINA<br>CAS#: 118-71-8</td>
+                <td>Tipo da MP: Amadeirado</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETAL R<br>CAS#: 105-57-7</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETANISOL CRISTAIS<br>CAS#: 103-54-8</td>
+                <td>Tipo da MP: Doce</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO AMILA<br>CAS#: 628-63-7</td>
+                <td>Tipo da MP: Frutado</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO BENZILA<br>CAS#: 140-11-4</td>
+                <td>Tipo da MP: Doce</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO CEDRENILA<br>CAS#: 77-54-3</td>
+                <td>Tipo da MP: Amadeirado</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO CINAMILA<br>CAS#: 103-54-8</td>
+                <td>Tipo da MP: Doce</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO CITRONELILA<br>CAS#: 150-84-5</td>
+                <td>Tipo da MP: Cítrico</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO DIMETIL BENZIL CARBINOL<br>CAS#: 151-05-3</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO ETILA<br>CAS#: 141-78-6</td>
+                <td>Tipo da MP: Doce</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO FENIL ETILA<br>CAS#: 93-92-5</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO FENOXI ALILA (AC PA)<br>CAS#: 122-97-4</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO GERANILA<br>CAS#: 105-87-3</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO GUAIACO<br>CAS#: 93-16-3</td>
+                <td>Tipo da MP: Amadeirado</td>
+            </tr>
+            <tr>
+                <td>Produto: ACETATO HEXILA<br>CAS#: 142-92-7</td>
+                <td>Tipo da MP: Frutado</td>
+            </tr>
+            <tr>
+                <td>Produto: Rosa Damascena (Óleo Essencial)<br>CAS#: 8007-01-0</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: Lavanda (Óleo Essencial)<br>CAS#: 8000-28-0</td>
+                <td>Tipo da MP: Amadeirada</td>
+            </tr>
+            <tr>
+                <td>Produto: Sândalo (Óleo Essencial)<br>CAS#: 8006-87-9</td>
+                <td>Tipo da MP: Amadeirada</td>
+            </tr>
+            <tr>
+                <td>Produto: Vetiver (Óleo Essencial)<br>CAS#: 8016-96-4</td>
+                <td>Tipo da MP: Amadeirada</td>
+            </tr>
+            <tr>
+                <td>Produto: Patchouli (Óleo Essencial)<br>CAS#: 8014-09-3</td>
+                <td>Tipo da MP: Amadeirada</td>
+            </tr>
+            <tr>
+                <td>Produto: Baunilha (Extrato)<br>CAS#: 8024-06-4</td>
+                <td>Tipo da MP: Doce</td>
+            </tr>
+            <tr>
+                <td>Produto: Musk (Sintético)<br>Não possui número CAS único</td>
+                <td>Tipo da MP: Musk</td>
+            </tr>
+            <tr>
+                <td>Produto: Jasmim (Óleo Essencial ou Absoluto)<br>CAS#: 8022-96-6</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: Bergamota (Óleo Essencial)<br>CAS#: 8007-75-8</td>
+                <td>Tipo da MP: Cítrica</td>
+            </tr>
+            <tr>
+                <td>Produto: Laranja (Óleo Essencial)<br>CAS#: 8008-57-9</td>
+                <td>Tipo da MP: Cítrica</td>
+            </tr>
+            <tr>
+                <td>Produto: Limão (Óleo Essencial)<br>CAS#: 8008-56-8</td>
+                <td>Tipo da MP: Cítrica</td>
+            </tr>
+            <tr>
+                <td>Produto: Rosa Bulgária (Óleo Essencial ou Absoluto)<br>CAS#: 84604-12-6</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: Cedro (Óleo Essencial)<br>CAS#: 8000-27-9</td>
+                <td>Tipo da MP: Amadeirada</td>
+            </tr>
+            <tr>
+                <td>Produto: Incenso (Óleo Essencial)<br>CAS#: 8016-36-2</td>
+                <td>Tipo da MP: Balsâmica</td>
+            </tr>
+            <tr>
+                <td>Produto: Gengibre (Óleo Essencial)<br>CAS#: 8007-08-7</td>
+                <td>Tipo da MP: Picante</td>
+            </tr>
+            <tr>
+                <td>Produto: Ylang-Ylang (Óleo Essencial)<br>CAS#: 8006-81-3</td>
+                <td>Tipo da MP: Floral</td>
+            </tr>
+            <tr>
+                <td>Produto: Pimenta Rosa (Óleo Essencial)<br>CAS#: 8006-77-7</td>
+                <td>Tipo da MP: Picante</td>
+            </tr>
+            <tr>
+                <td>Produto: Gálbano (Óleo Essencial)<br>CAS#: 93165-40-3</td>
+                <td>Tipo da MP: Resinosa</td>
+            </tr>
+            <tr>
+                <td>Produto: Sálvia (Óleo Essencial)<br>CAS#: 84082-66-6</td>
+                <td>Tipo da MP: Herbal</td>
+            </tr>
+            <tr>
+                <td>Produto: Eucalipto (Óleo Essencial)<br>CAS#: 8000-48-4</td>
+                <td>Tipo da MP: Fresca</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    
+</div>
+
+
+    <!-- Resultado da pesquisa -->
+    <div id="resultadoPesquisa">
+    </div>
+</div>
+
+<script>
+    jQuery(document.body).on('keypress', '#myForm', function (e) {
+    if (e.keyCode === 13) {
+        e.preventDefault();
+        $("#botaoItem").trigger("click");
+    }
+});
+</script>
+  </section>
+<form action="https://getform.io/f/5f5fffb3-3d89-410b-8d39-c089cf38cb6a" method="POST">
+  <section id="contact">
+    <div class="contato">
+      <h1>Entre em contato</h1>
+      <div class="enviar">
+      <div class="inpu">
+      <input type="text" name="name" id="name" placeholder="Nome">
+      <input type="number" name="CNPJ" id="cnpj" placeholder="CNPJ">
+      <input type="tel" name="Telefone" id="tell" placeholder="Telefone">
+      <input type="email" name="E-mail" id="mail" placeholder="E-mail">
+      </div>
+      <div class="send">
+      <textarea id="solicitacao" name="Solicitação" placeholder="Escreva sua solicitação de matéria-prima aqui..."></textarea>
+       <button onclick="enviarEmail()">Enviar</button>
+      </div>
+      </div>
+      
+    </div>
+    </form>
+  </section>
+
+  </main>
+</body>
+</html>
