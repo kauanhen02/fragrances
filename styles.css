@@ -30,6 +30,12 @@ html {
   scroll-behavior: smooth;
 }
 
+nav, .scroll-container {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 body {
   background-color: var(--bg-color);
 }
